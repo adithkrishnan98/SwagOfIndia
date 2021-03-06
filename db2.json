@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "NextGen Product 1",
+            "price": "1300",
+            "priceAfterDiscount": "1990",
+            "imageName": "product3",
+            "ratings": "2.2"
+        },
+        {
+            "id": "2",
+            "name": "Best Product 2",
+            "price": "2340",
+            "priceAfterDiscount": "1860",
+            "imageName": "product3",
+            "ratings": "5"
+        },
+        {
+            "id": "3",
+            "name": "Featured Product 3",
+            "price": "2060",
+            "priceAfterDiscount": "1120",
+            "imageName": "product3",
+            "ratings": "4"
+        },
+        {
+            "id": "4",
+            "name": "Large Product 4",
+            "price": "1270",
+            "priceAfterDiscount": "950",
+            "imageName": "product3",
+            "ratings": "3"
+        },
+        {
+            "id": "5",
+            "name": "Tiny Product 5",
+            "price": "1000",
+            "priceAfterDiscount": "700",
+            "imageName": "product3",
+            "ratings": "5"
+        },
+        {
+            "id": "6",
+            "name": "Expensive Product 6",
+            "price": "3000",
+            "priceAfterDiscount": "1500",
+            "imageName": "product3",
+            "ratings": "4.7"
+        },
+         {
+            "id": "7",
+            "name": "Aged Product 7",
+            "price": "2000",
+            "priceAfterDiscount": "900",
+            "imageName": "product3",
+            "ratings": "4"
+        },
+         {
+            "id": "8",
+            "name": "Fair Product 8",
+            "price": "1000",
+            "priceAfterDiscount": "650",
+            "imageName": "product3",
+            "ratings": "2.7"
+        },
+         {
+            "id": "9",
+            "name": "Best Product 9",
+            "price": "3000",
+            "priceAfterDiscount": "1300",
+            "imageName": "product3",
+            "ratings": "5"
+        }
+    ]
+}
