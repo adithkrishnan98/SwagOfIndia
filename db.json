@@ -6,7 +6,6 @@
             "price": "1200",
             "priceAfterDiscount": "990",
             "imageName": "product2",
-            "isNew": "TRUE",
             "ratings": "3.2"
         },
         {
@@ -15,7 +14,6 @@
             "price": "1340",
             "priceAfterDiscount": "860",
             "imageName": "product2",
-            "isNew": "FALSE",
             "ratings": "4.8"
         },
         {
@@ -24,7 +22,6 @@
             "price": "2060",
             "priceAfterDiscount": "1120",
             "imageName": "product2",
-            "isNew": "FALSE",
             "ratings": "2.5"
         },
         {
@@ -33,8 +30,7 @@
             "price": "1870",
             "priceAfterDiscount": "930",
             "imageName": "product2",
-            "isNew": "TRUE",
-            "ratings": "4"
+            "ratings": "3.5"
         },
         {
             "id": "5",
@@ -42,7 +38,6 @@
             "price": "1000",
             "priceAfterDiscount": "700",
             "imageName": "product2",
-            "isNew": "FALSE",
             "ratings": "5"
         },
         {
@@ -51,8 +46,31 @@
             "price": "3000",
             "priceAfterDiscount": "1500",
             "imageName": "product2",
-            "isNew": "TRUE",
             "ratings": "4.7"
+        },
+         {
+            "id": "7",
+            "name": "Aged Product 7",
+            "price": "2000",
+            "priceAfterDiscount": "900",
+            "imageName": "product2",
+            "ratings": "4"
+        },
+         {
+            "id": "8",
+            "name": "Fair Product 8",
+            "price": "1000",
+            "priceAfterDiscount": "650",
+            "imageName": "product2",
+            "ratings": "2.7"
+        },
+         {
+            "id": "9",
+            "name": "Best Product 9",
+            "price": "3000",
+            "priceAfterDiscount": "1300",
+            "imageName": "product2",
+            "ratings": "5"
         }
     ]
 }
