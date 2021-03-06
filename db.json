@@ -7,7 +7,7 @@
             "priceAfterDiscount": "990",
             "imageName": "product2",
             "isNew": "TRUE",
-            "ratings": "3"
+            "ratings": "3.2"
         },
         {
             "id": "2",
@@ -16,7 +16,7 @@
             "priceAfterDiscount": "860",
             "imageName": "product2",
             "isNew": "FALSE",
-            "ratings": "4"
+            "ratings": "4.8"
         },
         {
             "id": "3",
@@ -25,7 +25,7 @@
             "priceAfterDiscount": "1120",
             "imageName": "product2",
             "isNew": "FALSE",
-            "ratings": "2"
+            "ratings": "2.5"
         },
         {
             "id": "4",
@@ -52,7 +52,7 @@
             "priceAfterDiscount": "1500",
             "imageName": "product2",
             "isNew": "TRUE",
-            "ratings": "5"
+            "ratings": "4.7"
         }
     ]
 }
