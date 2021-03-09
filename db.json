@@ -14,7 +14,7 @@
             "price": "1340",
             "priceAfterDiscount": "860",
             "imageName": "product2",
-            "ratings": "4.8"
+            "ratings": "5"
         },
         {
             "id": "3",
@@ -70,7 +70,7 @@
             "price": "3000",
             "priceAfterDiscount": "1300",
             "imageName": "product2",
-            "ratings": "5"
+            "ratings": "3"
         }
     ]
 }
