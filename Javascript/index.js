@@ -148,7 +148,7 @@ async function showProducts(Url) {
             <div class="prod-card mb-4" id='${product.id}'>
               <div class="icons d-flex justify-content-center" id="card_icons">
                 <a class="heart"><img class='img1' src="Images/heart-icon-trans.png" alt="inner heart icon"></a>
-                <a href="product-view.html"><img src="Images/eye-icon-trans.png" alt="inner eye icon"></a>
+                <a href="Product-view.html"><img src="Images/eye-icon-trans.png" alt="inner eye icon"></a>
                 <a class="shopping"><img src="Images/shopping-icon-trans.png" alt="inner shopping icon"></a>
               </div>
               <img class="card-img-top" src="Images/${product.imageName}.png" alt="Card image cap">
