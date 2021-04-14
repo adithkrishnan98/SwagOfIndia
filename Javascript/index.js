@@ -544,7 +544,7 @@ xmlhttp.onreadystatechange = function() {
         }
   }
 };
-xmlhttp.open("GET", "products.JSON", true);
+xmlhttp.open("GET", "products.json", true);
 xmlhttp.send();
 
 
