@@ -148,7 +148,7 @@ async function showProducts(Url) {
             <div class="prod-card mb-4" id='${product.id}'>
               <div class="icons d-flex justify-content-center" id="card_icons">
                 <a class="heart"><img class='img1' src="Images/heart-icon-trans.png" alt="inner heart icon"></a>
-                <a href="product-view.html"><img src="Images/eye-icon-trans.png" alt="inner eye icon"></a>
+                <a href="Product-view.html"><img src="Images/eye-icon-trans.png" alt="inner eye icon"></a>
                 <a class="shopping"><img src="Images/shopping-icon-trans.png" alt="inner shopping icon"></a>
               </div>
               <img class="card-img-top" src="Images/${product.imageName}.png" alt="Card image cap">
@@ -179,7 +179,7 @@ async function showProducts(Url) {
               <div class="prod-card mb-4" id="card_id">
                 <div class="icons d-flex justify-content-center" id="card_icons">
                   <a class="heart"><img class='img1' src="Images/heart-icon-trans.png" alt="inner heart icon"></a>
-                  <a href="product-view.html"><img src="Images/eye-icon-trans.png" alt="inner eye icon"></a>
+                  <a href="Product-view.html"><img src="Images/eye-icon-trans.png" alt="inner eye icon"></a>
                   <a class="shopping"><img src="Images/shopping-icon-trans.png" alt="inner shopping icon"></a>
                 </div>
                 <img class="card-img-top" src="Images/${product.imageName}.png" alt="Card image cap">
@@ -465,23 +465,16 @@ xmlhttp.onreadystatechange = function() {
 
                   // If no existing data, create an array
                   // Otherwise, convert the localStorage string to an array
-                  // existing_Products = existing_Products ?  existing_Products.push(document.getElementById('addToCart' + i).closest('.pdt-container2').id) : [];
           
                   if(existing_fav_Products == null ){
                     existing_fav_Products = [];
                   }
-                    existing_fav_Products.push(document.getElementById('wishlist-btn' + i).closest('.cart-items-holder').id);
-          
-                  // Add new data to localStorage Array
-                  // existing_Products.push(document.getElementById('addToCart' + i).closest('.pdt-container2').id);
+                   // Add new data to localStorage Array
+                   existing_fav_Products.push(document.getElementById('wishlist-btn' + i).closest('.cart-items-holder').id);
           
                   // Save back to localStorage
                   localStorage.setItem('Wishlist_IDs', JSON.stringify(Array.from(existing_fav_Products)));
-          
-
-
-                  // fav_products.add(document.getElementById('wishlist-btn' + i).closest('.cart-items-holder').id);
-                  // localStorage.setItem('Wishlist_IDs', JSON.stringify(Array.from(fav_products)));
+      
                   counter2 = JSON.parse(localStorage.getItem("Wishlist_IDs")).length;
                   document.querySelector('#wishlist-badge').innerHTML = String(counter2);
                   // fade effect while removing product
@@ -662,23 +655,16 @@ xmlhttp2.onreadystatechange = function() {
 
         // If no existing data, create an array
         // Otherwise, convert the localStorage string to an array
-        // existing_Products = existing_Products ?  existing_Products.push(document.getElementById('addToCart' + i).closest('.pdt-container2').id) : [];
 
         if(existing_Products == null ){
           existing_Products = [];
         }
+         // Add new data to localStorage Array
         existing_Products.push(document.getElementById('addToCart' + i).closest('.pdt-container2').id);
-        
-
-        // Add new data to localStorage Array
-        // existing_Products.push(document.getElementById('addToCart' + i).closest('.pdt-container2').id);
 
         // Save back to localStorage
         localStorage.setItem('Products_IDs', JSON.stringify(Array.from(existing_Products)));
-
         
-        // products.add(document.getElementById('addToCart' + i).closest('.pdt-container2').id);
-        // localStorage.setItem('Products_IDs', JSON.stringify(Array.from(products)));
         counter = JSON.parse(localStorage.getItem("Products_IDs")).length;
         document.querySelector('#cart-badge').innerHTML = String(counter);
         
