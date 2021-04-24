@@ -10,7 +10,7 @@ This is my portfolio project which demonstrates my abilities in building a compl
 On clicking on the country it gives the user the ability to choose from different country upon which the contact number and flag changes accordingly. 
 
 2. ### Loading products from database
-On clicking on the shop now or view more button the user is taken to the all-products page where the information of different products are loaded from a database via a fake server. This feature was implemented using AJAX calls and javascript. The product information in the server were stored in JSON format. 
+On clicking on the **shop now** or **view more** button the user is taken to the all-products page where the information of different products are loaded from a database via a fake server. This feature was implemented using AJAX calls and javascript. The product information in the server were stored in JSON format.  
 
 3. ### Cart page implementations 
 Within the latest section of the homepage where different products are displayed, on hovering over the mouse users can click on the cart icon and add multiple products to cart. The cart on the top navigation bar increments as the user adds products and upon clicking on it takes them to the cart page. Here. users can select their preferred size of different products and also change the quantity of order as they need. Also, users can delete products from cart permanently by clicking the remove button or add the particular product to wishlist by clicking on the add to wishlist button. When satisfied, the user can click on proceed to checkout button to go to the checkout page. 
