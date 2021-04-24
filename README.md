@@ -2,6 +2,7 @@
 
 This is my portfolio project which demonstrates my abilities in building a completely responsive front-end of an e-commerce website using popular tools such as HTML5, CSS3, Bootstrap, Javascript, jQuery, AJAX and JSON. Working on this project helped me solidify my understanding of the above mentioned tools and implement them in different segments of this e-commerce project.
 
+
 ## Features
 1. ### Country selection
 On clicking on the country it gives the user the ability to choose from different country upon which the contact number and flag changes accordingly. 
@@ -21,4 +22,14 @@ On arriving at the checkout page, users will have to pass 3 stages to place the 
 6. ### Profile creation and updation
 The users can head to the my-profile page by clicking on the Profile on top navigation bar. Here, the user is shown their information like name, gender, email, location etc among others and the users can edit these details by clicking on the edit button which takes them to the edit-profile page. Here, users can change entire infoamtion or edit previously saved information and click on save details button to save the details. Upon doing this the user is taken back to the my-profie page where the updated details are displayed. 
 
+## Coding Best Practises Used
+* DRY (Do Not Repeat Yourself)
+* Clean, readable and organised code
+* Comments describing functions and code blocks
+* Re-used code as much as possible
 
+## Future Work
+* Password hide/show feature
+* Adding buttons for cart, wishlist and prouct view for phones and tablets instead of hovering icons
+* Connecting facebook, twitter, gmail API for login
+* Creating a backend and database and connecting the front end with it to create a full fledged e-commerce website. 
