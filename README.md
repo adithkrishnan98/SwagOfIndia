@@ -1,4 +1,4 @@
-# SwagOfIndia E-commerce website 
+# SwagOfIndia E-commerce website (FrontEnd)
 
 
 ## Description 
